@@ -1,0 +1,190 @@
+*{
+    margin: 0px;
+    font-family: cursive ;
+
+} 
+body{
+background-color: black;
+}
+#cell{ 
+    font-size: 4vw;
+margin-left:25vw ;
+    color: aliceblue;
+    display: flex;
+ padding-top: 3vw;
+}
+
+#bossvid{
+    position: absolute;
+    height: 122%;
+    width: 100%;
+    z-index: -88;
+}
+
+#header{
+    /* margin-top: 5vw; */
+ height:15vw;
+ width: 100vw;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  gap: 5vw;
+}
+#header1{
+    height: 10vw;
+    width: 10vw;
+    border-radius: 10%;
+    
+}
+.slide1{
+    position: absolute;
+    background-color: rgb(79, 241, 160);
+    height: 10vw;
+    width: 10vw;
+    z-index: 1;
+    border-radius: 10%;
+}
+.slide1 img {
+height: 100%;
+width: 100%;
+border-radius: 10%;
+
+}
+#slide12 video{
+    height: 100%;
+    width: 100%;
+}
+.slide2{
+    position: relative;
+    background-color: rgba(255, 166, 0, 0.955);
+    height: 10vw;
+    width: 10vw;
+    transition: transform 3s ease;
+    transform-origin: left;
+    border-radius: 10%;
+    z-index: 155;
+    display: flex;
+    align-items: center;
+}
+
+#video2{
+    position: absolute;
+    border-radius: 10%;
+    height:  25vw;
+    width: 40vw;
+    object-fit:cover;
+    z-index: 0;
+  filter:blur(2px);
+  margin-top: 5vw;
+  margin-left: 9vw;
+} 
+#vidtext{
+    z-index: 1;
+    position: relative;
+    text-align: center;
+    padding-top:10vw ;
+    font-size: 2vw;
+    color: rgb(44, 15, 139);
+}
+
+#direction{
+    margin-top: 5vw;
+    text-align: center;
+    font-size: 3vw;
+    font-family:cursive;
+animation: direct 3s linear 2s infinite ;
+position: relative;
+color: aliceblue;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.game1{
+    height: 15vw;
+    width: 100vw;
+    background-color: rgb(0, 0, 0);
+display: flex;
+flex-direction: column;
+gap: 1vw;
+color: aliceblue;
+mix-blend-mode:lighten;
+}
+
+.game1 ol li{
+    text-transform:capitalize;
+    font-size: larger;
+    margin-top: 1vw;
+    color: aliceblue;
+}
+.gamee{
+    font-size:3vw;
+    text-align: center;
+}
+#vidtext{
+    animation-name: name;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-duration: 1s;
+}
+.game1btn{
+    position: relative;
+    margin-top: 2vw;
+font-size: 1.5vw;
+ background-color: royalblue;
+ color: white;
+}
+#direction p{
+    animation: ribbon linear infinite 1s;
+}
+.game2{
+    margin-top:3vw ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ride{
+    text-decoration: none;
+    border: 2px white solid;
+    width: 15vw;
+    text-align: center;
+    color: aqua;
+    border-radius: 1vw;
+}
+#naruto{
+    height: 15vw;
+    width: 15vw;
+    position: relative;
+    z-index: 222;
+    margin-left: 42.5vw;
+    border-radius: 50%;
+    border: 5px white solid;
+    margin-top: 2vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.slide2:hover{
+    transform:rotate(180deg);
+}
+@keyframes ribbon{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.2);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
